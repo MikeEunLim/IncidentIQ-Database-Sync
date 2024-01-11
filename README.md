@@ -1,5 +1,9 @@
-# Archived
-This project has been archived, I no longer have access to IncidentIQ and cannot maintain the project further. In addition, IncidentIQ appears to have delivered tooling to handle the problems this tool intended to solve.
+
+
+
+# Recover  
+
+Reviving past owner and creator https://github.com/Alec-Bailey/IncidentIQ-Data-Sync Alec-Bailey 
 
 # Incident IQ Data Sync
 Incident IQ Data Sync is a dynamic, database agnostic tool which syncs all of IncidentIQ's data into a local database. Designed to be performant, multithreaded, configurable and easily extended.
@@ -74,6 +78,11 @@ To figure out how to write a connection string for your database see the [offica
 The example in `config-sample.ini` is a connection string for an Microsoft Sql Server database using Windows authentication: 
 
 `mssql+pyodbc://myDatabase.something.local/Inventory?driver=SQL+Server+Native+Client+11.0`
+
+Raw connectionString allow with ODBC_connect: (urllib.parse.quote_plus learn more for formating)
+from Raw data DRIVER={SQL Server Native Client 11.0} is equivilent to DRIVER%%3D%%7BSQL+Server+Native+Client+11.0`
+
+`mssql+pyodbc:///?odbc_connect=DRIVER%%3D%%7BSQL+Server+Native+Client+11.0`
 
 Every database and network is different, **please refer to the [official documentation.](https://docs.sqlalchemy.org/en/14/core/engines.html)**
 
