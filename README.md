@@ -80,7 +80,7 @@ The example in `config-sample.ini` is a connection string for an Microsoft Sql S
 `mssql+pyodbc://myDatabase.something.local/Inventory?driver=SQL+Server+Native+Client+11.0`
 
 Raw connectionString allow with ODBC_connect: (urllib.parse.quote_plus learn more for formating)
-from Raw data DRIVER={SQL Server Native Client 11.0} is equivilent to DRIVER%%3D%%7BSQL+Server+Native+Client+11.0`
+from Raw data DRIVER={SQL Server Native Client 11.0} is equivilent to DRIVER%%3D%%7BSQL+Server+Native+Client+11.0
 
 `mssql+pyodbc:///?odbc_connect=DRIVER%%3D%%7BSQL+Server+Native+Client+11.0`
 
