@@ -1,0 +1,12 @@
+.vscode/settings.json
+.vscode
+config.ini
+__pycache__
+out.txt
+config-testing.ini
+config-prod.ini
+config-local.ini
+.idea/*
+dist/*
+build/*
+main.spec
