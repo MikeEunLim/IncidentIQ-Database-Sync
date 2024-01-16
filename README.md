@@ -183,7 +183,20 @@ A slow connection to your database will also cause slower script execution.
   * `Ticket Custom Fields`
   * `Fines`
   * `Rooms`
-
+   
+**Example Config.ini**
+'''[Tables]'''
+''';Customize table names'''
+'''Assets: Assets'''
+'''AssetsCustomFields: AssetCustomFields'''
+'''Users: Users'''
+'''UsersCustomFields: UserCustomFields'''
+'''Locations: Locations'''
+'''Tickets: Tickets'''
+'''TicketsCustomFields: TicketsCustomFields'''
+'''Fines: Fines'''
+'''Rooms: Rooms'''
+'''Teams: Teams'''
 
 ## Contributing
 ---
