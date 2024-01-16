@@ -185,7 +185,8 @@ A slow connection to your database will also cause slower script execution.
   * `Rooms`
    
 **Example Config.ini**
-```[Tables]
+```
+[Tables]
 ;Customize table names
 Assets: Assets
 AssetsCustomFields: AssetCustomFields
