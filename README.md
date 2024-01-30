@@ -180,7 +180,7 @@ A slow connection to your database will also cause slower script execution.
 
 2. *Planned options will be available by configuration in `config.ini`*
   * `Tickets`
-  * `Ticket Custom Fields`
+  * `Tickets Custom Fields`
   * `Fines`
   * `Rooms`
    
